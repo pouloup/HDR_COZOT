@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/octopus/Documents/ESIR/ES/HDR_COZOT/src/gsolve.cpp
+opencv2/core/core.hpp
+-
+iostream
+-
+
