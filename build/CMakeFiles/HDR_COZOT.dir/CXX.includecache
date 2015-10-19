@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+../include/exif.h
+string
+-
+
 /home/octopus/Documents/ESIR/ES/HDR_COZOT/src/main.cpp
 vector
 -
@@ -19,4 +23,6 @@ opencv2/imgcodecs.hpp
 -
 opencv2/highgui.hpp
 -
+exif.h
+/home/octopus/Documents/ESIR/ES/HDR_COZOT/src/exif.h
 

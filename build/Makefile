@@ -114,6 +114,30 @@ HDR_COZOT/fast:
 	$(MAKE) -f CMakeFiles/HDR_COZOT.dir/build.make CMakeFiles/HDR_COZOT.dir/build
 .PHONY : HDR_COZOT/fast
 
+src/exif.o: src/exif.cpp.o
+.PHONY : src/exif.o
+
+# target to build an object file
+src/exif.cpp.o:
+	$(MAKE) -f CMakeFiles/HDR_COZOT.dir/build.make CMakeFiles/HDR_COZOT.dir/src/exif.cpp.o
+.PHONY : src/exif.cpp.o
+
+src/exif.i: src/exif.cpp.i
+.PHONY : src/exif.i
+
+# target to preprocess a source file
+src/exif.cpp.i:
+	$(MAKE) -f CMakeFiles/HDR_COZOT.dir/build.make CMakeFiles/HDR_COZOT.dir/src/exif.cpp.i
+.PHONY : src/exif.cpp.i
+
+src/exif.s: src/exif.cpp.s
+.PHONY : src/exif.s
+
+# target to generate assembly for a file
+src/exif.cpp.s:
+	$(MAKE) -f CMakeFiles/HDR_COZOT.dir/build.make CMakeFiles/HDR_COZOT.dir/src/exif.cpp.s
+.PHONY : src/exif.cpp.s
+
 src/gsolve.o: src/gsolve.cpp.o
 .PHONY : src/gsolve.o
 
@@ -195,6 +219,9 @@ help:
 	@echo "... HDR_COZOT"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... src/exif.o"
+	@echo "... src/exif.i"
+	@echo "... src/exif.s"
 	@echo "... src/gsolve.o"
 	@echo "... src/gsolve.i"
 	@echo "... src/gsolve.s"
