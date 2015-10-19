@@ -1,5 +1,6 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/HDR_COZOT.dir/src/gsolve.cpp.o"
+  "CMakeFiles/HDR_COZOT.dir/src/reference.cpp.o"
   "HDR_COZOT.pdb"
   "HDR_COZOT"
 )

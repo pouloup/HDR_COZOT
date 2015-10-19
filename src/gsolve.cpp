@@ -51,6 +51,6 @@ void gsolve(cv::Mat& Z, double l, double *g, double *lE) {
 	cv::Mat x;
 	cv::solve(A, b, x, cv::DECOMP_SVD); //SVD A\b
 	
-	g = x.row(0);
-	lE = x(n + 1, x.cols);
+	//g = x.row(0);
+	//lE = x(n + 1, x.cols);
 }

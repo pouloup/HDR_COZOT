@@ -6,9 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/octopus/Documents/ESIR/ES/HDR_COZOT/src/gsolve.cpp
-opencv2/core/core.hpp
+/home/octopus/Documents/ESIR/ES/HDR_COZOT/src/reference.cpp
+opencv2/photo.hpp
+-
+opencv2/imgcodecs.hpp
+/home/octopus/Documents/ESIR/ES/HDR_COZOT/src/opencv2/imgcodecs.hpp
+opencv2/highgui.hpp
+-
+vector
 -
 iostream
+-
+fstream
 -
 

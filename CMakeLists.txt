@@ -6,10 +6,10 @@ find_package(OpenCV REQUIRED)
 
 set(${PROJECT_NAME}_CPP
 	src/gsolve.cpp
+	src/reference.cpp
 )
 
 set(${PROJECT_NAME}_H
-	include/gsolve.h
 )
 
 add_executable(
