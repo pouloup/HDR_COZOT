@@ -11,7 +11,7 @@ using namespace std;
 
 void loadExposureSeq(String, vector<Mat>&, vector<float>&);
 
-int main(int, char**argv)
+int main_reference(int, char**argv)
 {
     vector<Mat> images;
     vector<float> times;

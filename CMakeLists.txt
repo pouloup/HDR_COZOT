@@ -7,6 +7,7 @@ find_package(OpenCV REQUIRED)
 set(${PROJECT_NAME}_CPP
 	src/gsolve.cpp
 	src/reference.cpp
+	src/main.cpp
 )
 
 set(${PROJECT_NAME}_H

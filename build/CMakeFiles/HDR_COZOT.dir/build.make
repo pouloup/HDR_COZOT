@@ -98,34 +98,71 @@ CMakeFiles/HDR_COZOT.dir/src/reference.cpp.o.provides: CMakeFiles/HDR_COZOT.dir/
 
 CMakeFiles/HDR_COZOT.dir/src/reference.cpp.o.provides.build: CMakeFiles/HDR_COZOT.dir/src/reference.cpp.o
 
+CMakeFiles/HDR_COZOT.dir/src/main.cpp.o: CMakeFiles/HDR_COZOT.dir/flags.make
+CMakeFiles/HDR_COZOT.dir/src/main.cpp.o: ../src/main.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/octopus/Documents/ESIR/ES/HDR_COZOT/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/HDR_COZOT.dir/src/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/HDR_COZOT.dir/src/main.cpp.o -c /home/octopus/Documents/ESIR/ES/HDR_COZOT/src/main.cpp
+
+CMakeFiles/HDR_COZOT.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HDR_COZOT.dir/src/main.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/octopus/Documents/ESIR/ES/HDR_COZOT/src/main.cpp > CMakeFiles/HDR_COZOT.dir/src/main.cpp.i
+
+CMakeFiles/HDR_COZOT.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HDR_COZOT.dir/src/main.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/octopus/Documents/ESIR/ES/HDR_COZOT/src/main.cpp -o CMakeFiles/HDR_COZOT.dir/src/main.cpp.s
+
+CMakeFiles/HDR_COZOT.dir/src/main.cpp.o.requires:
+.PHONY : CMakeFiles/HDR_COZOT.dir/src/main.cpp.o.requires
+
+CMakeFiles/HDR_COZOT.dir/src/main.cpp.o.provides: CMakeFiles/HDR_COZOT.dir/src/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/HDR_COZOT.dir/build.make CMakeFiles/HDR_COZOT.dir/src/main.cpp.o.provides.build
+.PHONY : CMakeFiles/HDR_COZOT.dir/src/main.cpp.o.provides
+
+CMakeFiles/HDR_COZOT.dir/src/main.cpp.o.provides.build: CMakeFiles/HDR_COZOT.dir/src/main.cpp.o
+
 # Object files for target HDR_COZOT
 HDR_COZOT_OBJECTS = \
 "CMakeFiles/HDR_COZOT.dir/src/gsolve.cpp.o" \
-"CMakeFiles/HDR_COZOT.dir/src/reference.cpp.o"
+"CMakeFiles/HDR_COZOT.dir/src/reference.cpp.o" \
+"CMakeFiles/HDR_COZOT.dir/src/main.cpp.o"
 
 # External object files for target HDR_COZOT
 HDR_COZOT_EXTERNAL_OBJECTS =
 
 HDR_COZOT: CMakeFiles/HDR_COZOT.dir/src/gsolve.cpp.o
 HDR_COZOT: CMakeFiles/HDR_COZOT.dir/src/reference.cpp.o
+HDR_COZOT: CMakeFiles/HDR_COZOT.dir/src/main.cpp.o
 HDR_COZOT: CMakeFiles/HDR_COZOT.dir/build.make
-HDR_COZOT: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so
-HDR_COZOT: /usr/lib/x86_64-linux-gnu/libopencv_contrib.so
-HDR_COZOT: /usr/lib/x86_64-linux-gnu/libopencv_core.so
-HDR_COZOT: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so
-HDR_COZOT: /usr/lib/x86_64-linux-gnu/libopencv_flann.so
-HDR_COZOT: /usr/lib/x86_64-linux-gnu/libopencv_gpu.so
-HDR_COZOT: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so
-HDR_COZOT: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so
-HDR_COZOT: /usr/lib/x86_64-linux-gnu/libopencv_legacy.so
-HDR_COZOT: /usr/lib/x86_64-linux-gnu/libopencv_ml.so
-HDR_COZOT: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so
-HDR_COZOT: /usr/lib/x86_64-linux-gnu/libopencv_photo.so
-HDR_COZOT: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so
-HDR_COZOT: /usr/lib/x86_64-linux-gnu/libopencv_superres.so
-HDR_COZOT: /usr/lib/x86_64-linux-gnu/libopencv_ts.so
-HDR_COZOT: /usr/lib/x86_64-linux-gnu/libopencv_video.so
-HDR_COZOT: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so
+HDR_COZOT: /home/octopus/Documents/opencv-3.0.0/lib/libopencv_viz.so.3.0.0
+HDR_COZOT: /home/octopus/Documents/opencv-3.0.0/lib/libopencv_videostab.so.3.0.0
+HDR_COZOT: /home/octopus/Documents/opencv-3.0.0/lib/libopencv_videoio.so.3.0.0
+HDR_COZOT: /home/octopus/Documents/opencv-3.0.0/lib/libopencv_video.so.3.0.0
+HDR_COZOT: /home/octopus/Documents/opencv-3.0.0/lib/libopencv_superres.so.3.0.0
+HDR_COZOT: /home/octopus/Documents/opencv-3.0.0/lib/libopencv_stitching.so.3.0.0
+HDR_COZOT: /home/octopus/Documents/opencv-3.0.0/lib/libopencv_shape.so.3.0.0
+HDR_COZOT: /home/octopus/Documents/opencv-3.0.0/lib/libopencv_photo.so.3.0.0
+HDR_COZOT: /home/octopus/Documents/opencv-3.0.0/lib/libopencv_objdetect.so.3.0.0
+HDR_COZOT: /home/octopus/Documents/opencv-3.0.0/lib/libopencv_ml.so.3.0.0
+HDR_COZOT: /home/octopus/Documents/opencv-3.0.0/lib/libopencv_imgproc.so.3.0.0
+HDR_COZOT: /home/octopus/Documents/opencv-3.0.0/lib/libopencv_imgcodecs.so.3.0.0
+HDR_COZOT: /home/octopus/Documents/opencv-3.0.0/lib/libopencv_highgui.so.3.0.0
+HDR_COZOT: /home/octopus/Documents/opencv-3.0.0/lib/libopencv_hal.a
+HDR_COZOT: /home/octopus/Documents/opencv-3.0.0/lib/libopencv_flann.so.3.0.0
+HDR_COZOT: /home/octopus/Documents/opencv-3.0.0/lib/libopencv_features2d.so.3.0.0
+HDR_COZOT: /home/octopus/Documents/opencv-3.0.0/lib/libopencv_core.so.3.0.0
+HDR_COZOT: /home/octopus/Documents/opencv-3.0.0/lib/libopencv_calib3d.so.3.0.0
+HDR_COZOT: /home/octopus/Documents/opencv-3.0.0/lib/libopencv_features2d.so.3.0.0
+HDR_COZOT: /home/octopus/Documents/opencv-3.0.0/lib/libopencv_ml.so.3.0.0
+HDR_COZOT: /home/octopus/Documents/opencv-3.0.0/lib/libopencv_highgui.so.3.0.0
+HDR_COZOT: /home/octopus/Documents/opencv-3.0.0/lib/libopencv_videoio.so.3.0.0
+HDR_COZOT: /home/octopus/Documents/opencv-3.0.0/lib/libopencv_imgcodecs.so.3.0.0
+HDR_COZOT: /home/octopus/Documents/opencv-3.0.0/lib/libopencv_flann.so.3.0.0
+HDR_COZOT: /home/octopus/Documents/opencv-3.0.0/lib/libopencv_video.so.3.0.0
+HDR_COZOT: /home/octopus/Documents/opencv-3.0.0/lib/libopencv_imgproc.so.3.0.0
+HDR_COZOT: /home/octopus/Documents/opencv-3.0.0/lib/libopencv_core.so.3.0.0
+HDR_COZOT: /home/octopus/Documents/opencv-3.0.0/lib/libopencv_hal.a
+HDR_COZOT: /home/octopus/Documents/opencv-3.0.0/3rdparty/ippicv/unpack/ippicv_lnx/lib/intel64/libippicv.a
 HDR_COZOT: CMakeFiles/HDR_COZOT.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable HDR_COZOT"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/HDR_COZOT.dir/link.txt --verbose=$(VERBOSE)
@@ -136,6 +173,7 @@ CMakeFiles/HDR_COZOT.dir/build: HDR_COZOT
 
 CMakeFiles/HDR_COZOT.dir/requires: CMakeFiles/HDR_COZOT.dir/src/gsolve.cpp.o.requires
 CMakeFiles/HDR_COZOT.dir/requires: CMakeFiles/HDR_COZOT.dir/src/reference.cpp.o.requires
+CMakeFiles/HDR_COZOT.dir/requires: CMakeFiles/HDR_COZOT.dir/src/main.cpp.o.requires
 .PHONY : CMakeFiles/HDR_COZOT.dir/requires
 
 CMakeFiles/HDR_COZOT.dir/clean:

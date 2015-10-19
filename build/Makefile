@@ -138,6 +138,30 @@ src/gsolve.cpp.s:
 	$(MAKE) -f CMakeFiles/HDR_COZOT.dir/build.make CMakeFiles/HDR_COZOT.dir/src/gsolve.cpp.s
 .PHONY : src/gsolve.cpp.s
 
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/HDR_COZOT.dir/build.make CMakeFiles/HDR_COZOT.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/HDR_COZOT.dir/build.make CMakeFiles/HDR_COZOT.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/HDR_COZOT.dir/build.make CMakeFiles/HDR_COZOT.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
 src/reference.o: src/reference.cpp.o
 .PHONY : src/reference.o
 
@@ -174,6 +198,9 @@ help:
 	@echo "... src/gsolve.o"
 	@echo "... src/gsolve.i"
 	@echo "... src/gsolve.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 	@echo "... src/reference.o"
 	@echo "... src/reference.i"
 	@echo "... src/reference.s"

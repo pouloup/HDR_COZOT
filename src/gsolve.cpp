@@ -14,11 +14,11 @@ int Zmax = 255;
 */
 
 double w(int val) {
-
+	return 0;
 }
 
 double B(int val, int valBizarre) {
-
+	return 0;
 }
 
 void gsolve(cv::Mat& Z, double l, double *g, double *lE) {
